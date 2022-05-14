@@ -1,5 +1,5 @@
 {
-  "name": "scpc-diff-html",
+  "name": "html-diff-scpc",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
