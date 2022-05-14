@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+del {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  margin-right: 2px;
+}
+
+ins {
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  margin-right: 2px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper div.inner {
+  padding: 15px;
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.wrapper div.inner div:first-child {
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
